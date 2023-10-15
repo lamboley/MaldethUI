@@ -1,0 +1,8 @@
+## Interface: 100107
+## Author: Maldeth
+## Version: 1.00.00
+## Title: Maldethui
+
+Libraries\LibStub\LibStub.lua
+Libraries\LibSharedMedia-3.0\lib.xml
+Libraries\TaintLess\TaintLess.xml
