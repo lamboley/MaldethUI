@@ -8,6 +8,7 @@ Core\Init.lua
 
 ## Libraries
 Libraries\LibStub\LibStub.lua
+Libraries\CallbackHandler-1.0\CallbackHandler-1.0.lua
 Libraries\LibSharedMedia-3.0\lib.xml
 Libraries\TaintLess\TaintLess.xml
 

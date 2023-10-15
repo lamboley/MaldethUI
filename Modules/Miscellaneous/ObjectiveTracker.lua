@@ -4,7 +4,18 @@ local Miscellaneous = T['Miscellaneous']
 
 function ObjectiveTracker:OnEvent(event)
 	if (event == 'PLAYER_ENTERING_WORLD') then
-		print('PLAYER_ENTERING_WORLD')
+		local instanceType = select(2, IsInInstance())
+		if not instanceType then return end
+
+		if instanceType == 'pvp' or instanceType == 'arena' then
+			ObjectiveTrackerFrame:Hide()
+		elseif instanceType == 'party' or instanceType == 'raid' or instanceType == 'scenario' then
+			ObjectiveTrackerFrame:Show()
+			ObjectiveTracker_Collapse()
+		else
+			ObjectiveTrackerFrame:Show()
+			ObjectiveTracker_Expand()
+		end
 	end
 end
 
