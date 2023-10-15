@@ -8,3 +8,4 @@ Libraries\LibSharedMedia-3.0\lib.xml
 Libraries\TaintLess\TaintLess.xml
 
 Core\Init.lua
+Core\SharedMedia.lua
