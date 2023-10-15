@@ -3,9 +3,19 @@
 ## Version: 1.00.00
 ## Title: Maldethui
 
+## Init
+Core\Init.lua
+
+## Libraries
 Libraries\LibStub\LibStub.lua
 Libraries\LibSharedMedia-3.0\lib.xml
 Libraries\TaintLess\TaintLess.xml
 
-Core\Init.lua
+## Core
 Core\SharedMedia.lua
+Core\Loading.lua
+Core\Modules.lua
+
+## Modules
+Modules\Miscellaneous\Core.lua
+Modules\Miscellaneous\ObjectiveTracker.lua
