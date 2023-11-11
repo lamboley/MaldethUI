@@ -21,3 +21,5 @@ Core\Modules.lua
 Modules\Miscellaneous\Core.lua
 Modules\Miscellaneous\ObjectiveTracker.lua
 Modules\Miscellaneous\OrderHall.lua
+
+Modules\Profiles\Profiles.lua
