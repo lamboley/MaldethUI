@@ -20,5 +20,4 @@ Core\Modules.lua
 ## Modules
 Modules\Miscellaneous\Core.lua
 Modules\Miscellaneous\ObjectiveTracker.lua
-
-Modules\LegionGuildHall\Core.lua
+Modules\Miscellaneous\OrderHall.lua

@@ -4,4 +4,5 @@ local Miscellaneous = T['Miscellaneous']
 
 function Miscellaneous:Enable()
 	Miscellaneous['ObjectiveTracker']:Enable()
+	Miscellaneous['OrderHall']:Enable()
 end
