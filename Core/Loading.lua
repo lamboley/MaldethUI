@@ -5,7 +5,7 @@ local Loading = CreateFrame('Frame')
 function Loading:OnEvent(event)
 	if (event == 'PLAYER_LOGIN') then
 		T['Miscellaneous']:Enable()
-		T['Profiles']:Enable()
+		T['Profile']:Enable()
 	end
 end
 
