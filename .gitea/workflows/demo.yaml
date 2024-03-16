@@ -18,10 +18,6 @@ jobs:
         run: apt-get install -yq lua-check 1>/dev/null || exit 1
 
       - name: Check version
-        run: luacheck --version
-
-      - name: Print inputs.files
-        run: echo "${{ inputs.files }}"
-
-      - name: Print inputs.path
-        run: echo "${{ inputs.path }}"
+        run: luacheck ${{ inputs.args }} -- ${{ inputs.files }}
+        working-directory: ${{ inputs.path }}
+        shell: bash
