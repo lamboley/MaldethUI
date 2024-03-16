@@ -27,4 +27,4 @@ Modules\Miscellaneous\ObjectiveTracker.lua
 Modules\Miscellaneous\OrderHall.lua
 
 Modules\Profiles\Profile.lua
-#Modules\Profiles\ProfileBartender.lua
+Modules\Profiles\ProfileBartender.lua
