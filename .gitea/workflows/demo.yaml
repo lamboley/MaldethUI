@@ -17,3 +17,8 @@ jobs:
         run: |
           ls ${{ gitea.workspace }}
       - run: echo "This job's status is ${{ job.status }}."
+      - name: Install and run Luacheck
+        uses: nebularg/actions-luacheck@v1
+        with:
+          args: "--no-color -q"
+          annotate: warning
