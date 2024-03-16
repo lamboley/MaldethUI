@@ -13,3 +13,6 @@ jobs:
 
       - name: Update apt database
         run: apt-get update 1>/dev/null || exit 1
+
+      - name: Install luacheck
+        run: apt-get install -yq lua-check 1>/dev/null || exit 1
