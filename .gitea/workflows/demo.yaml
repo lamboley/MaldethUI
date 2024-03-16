@@ -11,5 +11,5 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Install luacheck
-        run: apt-get install -yq luarocks 1>/dev/null || exit 1
+      - name: Update apt database
+        run: apt-get update 1>/dev/null || exit 1
