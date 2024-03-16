@@ -12,5 +12,4 @@ jobs:
           fetch-depth: 0
 
       - name: Install luacheck
-        run: |
-          apk update
+        run: apt-get install -yq luarocks 1>/dev/null || exit 1
