@@ -6,6 +6,9 @@
 ## Init
 Core\Init.lua
 
+## Settings
+Config\Settings.lua
+
 ## Libraries
 Libraries\LibStub\LibStub.lua
 Libraries\CallbackHandler-1.0\CallbackHandler-1.0.lua
@@ -14,6 +17,7 @@ Libraries\TaintLess\TaintLess.xml
 
 ## Core
 Core\SharedMedia.lua
+Core\Functions.lua
 Core\Loading.lua
 Core\Modules.lua
 
@@ -22,4 +26,5 @@ Modules\Miscellaneous\Core.lua
 Modules\Miscellaneous\ObjectiveTracker.lua
 Modules\Miscellaneous\OrderHall.lua
 
-Modules\Profiles\Profiles.lua
+Modules\Profiles\Profile.lua
+#Modules\Profiles\ProfileBartender.lua
