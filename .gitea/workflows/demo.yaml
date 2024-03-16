@@ -17,7 +17,8 @@ jobs:
           apt-get install -yq lua-check 1>/dev/null || exit 1
 
       - run: echo "🎉 The job was automatically ${{ inputs.path }} triggered by a ${{ inputs.files }} event."
-
+      - run: pwd
+      - run: ls -lrt
       - name: Check version
         run: luacheck ${{ inputs.args }} -- ${{ inputs.files }}
         working-directory: ${{ inputs.path }}
