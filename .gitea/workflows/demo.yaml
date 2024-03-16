@@ -19,3 +19,9 @@ jobs:
 
       - name: Check version
         run: luacheck --version
+
+      - name: Print inputs.config
+        run: echo "${{ inputs.config }}"
+
+      - name: Print inputs.annotate
+        run: echo "${{ inputs.annotate }}"
