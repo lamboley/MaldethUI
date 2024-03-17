@@ -32,4 +32,19 @@ C['Profile'] = {
         [104] = 'pve', -- Guardian
         [105] = 'pve', -- Restoration
     },
+    ['Frutrim'] = {
+        [102] = 'pve', -- Balance
+        [103] = 'pve', -- Feral
+        [104] = 'pve', -- Guardian
+        [105] = 'pve', -- Restoration
+    },
+}
+
+C['PlayerPortrait'] = {
+    ['Frutrim'] = {
+        [102] = 0, -- Balance
+        [103] = 0, -- Feral
+        [104] = 1, -- Guardian
+        [105] = 1, -- Restoration
+    },
 }
