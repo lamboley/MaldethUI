@@ -48,4 +48,5 @@ globals = {
 	"GetNumAddOns",
 	"GetAddOnInfo",
 	"IsAddOnLoaded",
+	"LibStub",
 }
