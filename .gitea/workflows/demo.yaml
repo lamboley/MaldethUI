@@ -20,4 +20,4 @@ jobs:
       - run: pwd
       - run: ls -lrt
       - name: Check version
-        run: luacheck ${{ inputs.args }} -- ${{ inputs.files }}
+        run: luacheck .
