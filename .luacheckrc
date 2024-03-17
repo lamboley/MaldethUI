@@ -11,4 +11,8 @@ ignore = {
 }
 globals = {
 	"_G",
+
+	-- API functions
+	"GetSpecialization",
+	"GetSpecializationInfo",
 }
