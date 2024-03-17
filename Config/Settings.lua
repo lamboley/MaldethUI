@@ -47,4 +47,10 @@ C['PlayerPortrait'] = {
         [104] = 1, -- Guardian
         [105] = 1, -- Restoration
     },
+    ['Bwulf'] = {
+        [102] = 0, -- Balance
+        [103] = 0, -- Feral
+        [104] = 1, -- Guardian
+        [105] = 1, -- Restoration
+    },
 }

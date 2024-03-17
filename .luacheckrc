@@ -12,7 +12,25 @@ ignore = {
 globals = {
 	"_G",
 
+	-- Maldethui
+	"Maldethui",
+
+	-- FrameXML misc
+	"ObjectiveTrackerFrame",
+	"PlayerFrame",
+
 	-- API functions
 	"GetSpecialization",
 	"GetSpecializationInfo",
+	"CreateFrame",
+	"UnitName",
+	"IsInInstance",
+	"ObjectiveTracker_Collapse",
+	"ObjectiveTracker_Expand",
+	"UIParent",
+	"OrderHallCommandBar",
+	"RegisterAttributeDriver",
+	"GetNumAddOns",
+	"GetAddOnInfo",
+	"IsAddOnLoaded",
 }
