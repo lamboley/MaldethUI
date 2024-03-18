@@ -59,6 +59,11 @@ C['PlayerPortrait'] = {
         [104] = 1, -- Guardian
         [105] = 1, -- Restoration
     },
+    ['Bungorm'] = {
+        [256] = 1, -- Discipline
+        [257] = 1, -- Holy
+        [258] = 0, -- Shadow
+    },
     ['Paetun'] = {
         [262] = 0, -- Elemental
         [263] = 0, -- Enhancement
