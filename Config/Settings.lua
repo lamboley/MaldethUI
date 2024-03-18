@@ -53,4 +53,20 @@ C['PlayerPortrait'] = {
         [104] = 1, -- Guardian
         [105] = 1, -- Restoration
     },
+    ['Mirkot'] = {
+        [102] = 0, -- Balance
+        [103] = 0, -- Feral
+        [104] = 1, -- Guardian
+        [105] = 1, -- Restoration
+    },
+    ['Paetun'] = {
+        [262] = 0, -- Elemental
+        [263] = 0, -- Enhancement
+        [264] = 1, -- Restoration
+    },
+    ['Ganguz'] = {
+        [262] = 0, -- Elemental
+        [263] = 0, -- Enhancement
+        [264] = 1, -- Restoration
+    },
 }
