@@ -52,6 +52,11 @@ C['PlayerPortrait'] = {
         [66] = 1, -- Protection
         [70] = 0, -- Retribution
     },
+    ['Ordoth'] = {
+        [65] = 1, -- Holy
+        [66] = 1, -- Protection
+        [70] = 0, -- Retribution
+    },
     ['Bwulf'] = {
         [102] = 0, -- Balance
         [103] = 0, -- Feral
