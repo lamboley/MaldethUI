@@ -47,6 +47,11 @@ C['PlayerPortrait'] = {
         [104] = 1, -- Guardian
         [105] = 1, -- Restoration
     },
+    ['Chaschunka'] = {
+        [65] = 1, -- Holy
+        [66] = 1, -- Protection
+        [70] = 0, -- Retribution
+    },
     ['Bwulf'] = {
         [102] = 0, -- Balance
         [103] = 0, -- Feral
@@ -60,6 +65,11 @@ C['PlayerPortrait'] = {
         [105] = 1, -- Restoration
     },
     ['Bungorm'] = {
+        [256] = 1, -- Discipline
+        [257] = 1, -- Holy
+        [258] = 0, -- Shadow
+    },
+    ['Ghuluk'] = {
         [256] = 1, -- Discipline
         [257] = 1, -- Holy
         [258] = 0, -- Shadow
