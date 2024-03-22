@@ -6,4 +6,5 @@ function Miscellaneous:Enable()
 	Miscellaneous['ObjectiveTracker']:Enable()
 	Miscellaneous['OrderHall']:Enable()
 	Miscellaneous['PlayerPortrait']:Enable()
+	Miscellaneous['GameTool']:Enable()
 end
