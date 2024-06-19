@@ -24,7 +24,11 @@ function ProfileBartender:OnEvent(event, ...)
     local playerName = T.playerName
 
     if C.Profile[playerName] then
-        ProfileBartender:SetProfile(C.Profile[playerName][T.GetCurrentSpecializationID()])
+        -- ProfileBartender:SetProfile(C.Profile[playerName][T.GetCurrentSpecializationID()])
+
+        local className, classFilename, classId = UnitClass('player')
+        print(className)
+        ProfileBartender:SetProfile(C.Profile[className][T.GetCurrentSpecializationID()])
     end
 end
 

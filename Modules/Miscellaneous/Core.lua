@@ -8,3 +8,5 @@ function Miscellaneous:Enable()
 	Miscellaneous['PlayerPortrait']:Enable()
 	Miscellaneous['GameTool']:Enable()
 end
+
+-- /console cameraDistanceMaxZoomFactor 2.6

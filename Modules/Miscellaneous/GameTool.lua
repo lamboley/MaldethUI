@@ -12,8 +12,8 @@ function GameTool:OnEvent(event)
 end
 
 function GameTool:Enable()
-    self:RegisterEvent('PLAYER_ENTERING_WORLD')
-	self:SetScript('OnEvent', self.OnEvent)
+    -- self:RegisterEvent('PLAYER_ENTERING_WORLD')
+	-- self:SetScript('OnEvent', self.OnEvent)
 end
 
 Miscellaneous.GameTool = GameTool
